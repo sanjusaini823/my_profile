@@ -1,0 +1,75 @@
+body {
+    background-color: #f4f4f4; /* default light mode background color */
+    color: #333; /* default light mode text color */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dark-mode {
+    background-color: #333; /* dark mode background color */
+    color: #f4f4f4; /* dark mode text color */
+  }
+
+  /* Style the toggle button */
+  .toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+  .a1 ul li a{
+    line-height: 50px;
+    
+     
+  }
+  .a1 ul li a{
+    white-space: nowrap;
+    height: 100%;
+    width: 100%;
+    color: red;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    
+
+     
+  }
+  .dropbtn {
+   
+ font-size: 16px;
+    
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+ 
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  
